@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Testing_the_feature_for_validating_pdf
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.32 s <<< FAILURE! - in Testing_the_feature_for_validating_pdf
+Testing the scenario for validating PDF(Testing_the_feature_for_validating_pdf)  Time elapsed: 17.32 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/testng/Assert
+Caused by: java.lang.ClassNotFoundException: org.testng.Assert
+

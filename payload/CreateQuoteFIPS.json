@@ -1,0 +1,22 @@
+{
+  "settlementStatementVersion": "CD",
+  "lienPosition": 1,
+  "loanAmount": 400000,
+  "loanType": "Purchase",
+  "salesPrice": 320000,
+  "city": "Chattanooga",
+  "isPrimary": true,
+  "streetName": "123 Test Street",
+  "streetNumber": "123",
+  "zip": "37412",
+  "partnerID": 503,
+  "partnerTypeID": 1,
+  "productTypeID": 17,
+  "transactionTypeID": 8,
+  "titleCompanyID": 1,
+  "netTangibleBenefitDateLoanClosed": "12/01/2020",
+  "propertyRefinanceOriginalCostAmount": 300000,
+  "toBePaidOffAmount": 10,
+  "transactionId": "a06bd471-da75-4c24-983a-dc0527b76041",
+  "fipsCode": "47065"
+}
