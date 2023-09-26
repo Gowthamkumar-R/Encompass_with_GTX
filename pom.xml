@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -15,11 +16,24 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Cucumberwithapi</groupId>
+	<artifactId>Cucumberwithapi</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<java.version>1.8</java.version>
+>>>>>>> Stashed changes
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
 	<dependencies>
+<<<<<<< Updated upstream
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -28,11 +42,132 @@
 		</dependency>
 
 		<dependency>
+=======
+		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+
+		<dependency>
+
+			<groupId>commons-io</groupId>
+
+			<artifactId>commons-io</artifactId>
+
+			<version>2.6</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.apache.commons</groupId>
+
+			<artifactId>commons-collections4</artifactId>
+
+			<version>4.2</version>
+
+		</dependency>
+		<dependency>
+
+			<groupId>com.relevantcodes</groupId>
+
+			<artifactId>extentreports</artifactId>
+
+			<version>2.41.2</version>
+
+		</dependency>
+		<dependency>
+
+			<groupId>org.apache.commons</groupId>
+
+			<artifactId>commons-compress</artifactId>
+
+			<version>1.18</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.apache.poi</groupId>
+
+			<artifactId>poi-ooxml-schemas</artifactId>
+
+			<version>4.0.1</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.apache.poi</groupId>
+
+			<artifactId>poi</artifactId>
+
+			<version>4.0.1</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.apache.poi</groupId>
+
+			<artifactId>poi-ooxml</artifactId>
+
+			<version>4.0.1</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.apache.xmlbeans</groupId>
+
+			<artifactId>xmlbeans</artifactId>
+
+			<version>3.0.2</version>
+
+		</dependency>
+
+		<dependency>
+
+			<groupId>org.seleniumhq.selenium</groupId>
+
+			<artifactId>selenium-server</artifactId>
+
+			<version>3.141.59</version>
+
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.11.0</version>
+</dependency>
+		
+		<!-- cucumber plugins using info cukes -->
+		<!-- <dependency> <groupId>info.cukes</groupId> <artifactId>cucumber-java</artifactId> 
+			<version>1.2.5</version> </dependency> <dependency> <groupId>info.cukes</groupId> 
+			<artifactId>cucumber-jvm-deps</artifactId> <version>1.0.5</version> <scope>provided</scope> 
+			</dependency> <dependency> <groupId>info.cukes</groupId> <artifactId>cucumber-junit</artifactId> 
+			<version>1.2.5</version> <scope>test</scope> </dependency> <dependency> <groupId>info.cukes</groupId> 
+			<artifactId>cucumber-picocontainer</artifactId> <version>1.2.5</version> 
+			<scope>test</scope> </dependency> -->
+
+		<!-- Cucumber plugins using io.cucumber -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>6.9.1</version>
+		</dependency>
+		<dependency>
+>>>>>>> Stashed changes
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-jvm-deps</artifactId>
 			<version>1.0.6</version>
 			<scope>provided</scope>
 		</dependency>
+<<<<<<< Updated upstream
 		<dependency>
 			<groupId>com.itextpdf</groupId>
 			<artifactId>itextpdf</artifactId>
@@ -120,42 +255,92 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.20.0</version>
 		</dependency>
+=======
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>6.9.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-picocontainer</artifactId>
+			<version>7.12.0</version>
+		</dependency>
+
+
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+>>>>>>> Stashed changes
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
 			<version>4.4.0</version>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< Updated upstream
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
 			<version>7.12.0</version>
 		</dependency>
+=======
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+>>>>>>> Stashed changes
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>json-path</artifactId>
 			<version>4.3.3</version>
 		</dependency>
+<<<<<<< Updated upstream
+=======
+
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
+>>>>>>> Stashed changes
 		<dependency>
 			<groupId>io.rest-assured</groupId>
 			<artifactId>xml-path</artifactId>
 			<version>4.3.3</version>
 		</dependency>
+<<<<<<< Updated upstream
+=======
+
+		<!-- For JSON reader -->
+>>>>>>> Stashed changes
 		<dependency>
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>
 		</dependency>
+<<<<<<< Updated upstream
+=======
+
+		<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+>>>>>>> Stashed changes
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.10</version>
 		</dependency>
+<<<<<<< Updated upstream
+=======
+
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>5.6.1</version>
+		</dependency>
+
+>>>>>>> Stashed changes
 		<dependency>
 			<groupId>org.apache.maven</groupId>
 			<artifactId>maven-plugin-api</artifactId>
 			<version>3.8.3</version>
 		</dependency>
+<<<<<<< Updated upstream
 	</dependencies>
 
 	<build>
@@ -205,3 +390,84 @@
 		</pluginManagement>
 	</build>
 </project>
+=======
+
+
+	</dependencies>
+
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.1</version>
+				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
+					<includes>
+						<include>"**/Step*.java"</include>
+					</includes>
+
+					<!-- <resources> <resource> <directory>src/main/resources</directory> 
+						<filtering>true</filtering> </resource> </resources> -->
+
+
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>net.masterthought</groupId>
+				<artifactId>maven-cucumber-reporting</artifactId>
+				<version>5.6.0</version>
+				<executions>
+					<execution>
+						<id>execution</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<projectName>Cucumberwithapi</projectName>
+							<!-- optional, per documentation set this to "true" to bypass generation 
+								of Cucumber Reports entirely, defaults to false if not specified -->
+							<skip>false</skip>
+							<!-- output directory for the generated report -->
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<!-- optional, defaults to outputDirectory if not specified -->
+							<inputDirectory>${project.build.directory}</inputDirectory>
+							<jsonFiles>
+								<!-- supports wildcard or name pattern -->
+								<param>**/*.json</param>
+							</jsonFiles>
+							<!-- optional, defaults to outputDirectory if not specified -->
+							<!-- <classificationDirectory>${project.build.directory}/classifications</classificationDirectory> -->
+							<!-- <classificationFiles> -->
+							<!-- supports wildcard or name pattern -->
+							<!-- <param>sample.properties</param> -->
+							<!-- <param>other.properties</param> -->
+							<!-- </classificationFiles> -->
+							<!-- <parallelTesting>false</parallelTesting> -->
+							<!-- optional, set true to group features by its Ids -->
+							<mergeFeaturesById>false</mergeFeaturesById>
+							<!-- optional, set true to get a final report with latest results 
+								of the same test from different test runs -->
+							<mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+							<!-- optional, set true to fail build on test failures -->
+							<checkBuildResult>false</checkBuildResult>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
+>>>>>>> Stashed changes

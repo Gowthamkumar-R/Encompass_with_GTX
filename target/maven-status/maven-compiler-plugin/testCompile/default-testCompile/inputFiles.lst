@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 C:\Users\Nitin.KumarG\eclipse-workspace\beazely\src\test\java\org\pages\OurClaimsServicesPage.java
 C:\Users\Nitin.KumarG\eclipse-workspace\beazely\src\test\java\org\stepDefinitions\Testing_the_feature_for_validating_texts.java
 C:\Users\Nitin.KumarG\eclipse-workspace\beazely\src\test\java\org\generics\Base.java
@@ -15,3 +16,8 @@ C:\Users\Nitin.KumarG\eclipse-workspace\beazely\src\test\java\org\pages\HomePage
 C:\Users\Nitin.KumarG\eclipse-workspace\beazely\src\test\java\org\pages\NavigationSearchPage.java
 C:\Users\Nitin.KumarG\eclipse-workspace\beazely\src\test\java\org\generics\IAutoConstant.java
 C:\Users\Nitin.KumarG\eclipse-workspace\beazely\src\test\java\org\stepDefinitions\Testing_the_feature_for_validating_pdf.java
+=======
+C:\Users\Sunil.SKumbar\Downloads\Cucumberwithapi\Cucumberwithapi\src\test\java\stepdefinition\APIFunction.java
+C:\Users\Sunil.SKumbar\Downloads\Cucumberwithapi\Cucumberwithapi\src\test\java\stepdefinition\Steps.java
+C:\Users\Sunil.SKumbar\Downloads\Cucumberwithapi\Cucumberwithapi\src\test\java\com\techarchive\Cucumberwithapi\CukeRunner.java
+>>>>>>> Stashed changes

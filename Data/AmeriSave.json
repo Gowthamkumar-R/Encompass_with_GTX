@@ -1,0 +1,76 @@
+{
+  "loanReason": "Refinance",
+  "languagePreference": "en",
+  "loans": [
+    {
+      "loanIdentifier": "test1234",
+      "lenderName": "AmeriSave",
+      "loanNumber": "TEST220200025",
+      "loanAmount": 608000,
+      "purchasePrice": 0,
+      "loanType": "FHA",
+      "lienPosition": 1,
+      "rate": 5.625,
+      "term": 360,
+      "PriorPolicyDate": "2023-05-04T11:02:03.386Z"
+    }
+  ],
+  "properties": [
+    {
+      "propertyId": 0,
+      "address": {
+        "address1": "Home Street,East Providence,RI,Providence,02914",
+        "address2": "123",
+        "city": "East Providence",
+        "state": "RI",
+        "fips": "0007",
+        "zipCode": "02914",
+        "county": "Providence"
+      },
+      "propertyUsageType": "Investment",
+      "propertyType": "SingleFamily"
+    }
+  ],
+  "contacts": [
+    {
+      "contactType": "AmeriSaveContact",
+      "contactId": "d4a4907508a7",
+      "firstName": "John",
+      "lastName": "Smith",
+      "companyName": "Amerisave",
+      "phone": "999-999-5280",
+      "address": {
+        "address1": "Home Street,East Providence,RI,Providence,02914",
+        "address2": "123",
+        "city": "East Providence",
+        "state": "RI",
+        "fips": "0007",
+        "zipCode": "02914",
+        "county": "Providence"
+      },
+      "email": "xyz@amerisave.com"
+    },
+    {
+      "contacttype": "Applicant",
+      "contactId": "2c963f66afa6",
+      "firstName": "Jane",
+      "middleName": "X",
+      "lastName": "Staples",
+      "suffix": null,
+      "ssn": "666-66-6666",
+      "companyname": "INDIVIDUAL",     
+      "address": {
+        "address1": "Home Street,East Providence,RI,Providence,02914",
+        "address2": "123",
+        "city": "East Providence",
+        "state": "RI",
+        "fips": "0007",
+        "zipCode": "02914",
+        "county": "Providence"
+      },
+      "phone": "9999999999",
+      "email": "xyz.cs@gmail.com"
+    }
+  ]
+}
+
