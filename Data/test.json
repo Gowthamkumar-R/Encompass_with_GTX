@@ -1,0 +1,15 @@
+{
+    "party_code": "S371860",
+    "orders": [
+         {
+            "exchange": "NSE",
+            "isin": "INE075A01022",
+            "price": 389.40,
+            "product_type": "DELIVERY",
+            "quantity": 1,
+            "segment_id": "CM",
+            "token": "507685",
+            "transaction_type": "BUY"
+        }
+    ]
+}

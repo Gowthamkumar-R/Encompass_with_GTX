@@ -1,1 +1,81 @@
+<<<<<<< Updated upstream
 [{"line":20,"elements":[{"start_timestamp":"2023-09-26T06:04:46.972Z","line":24,"name":"RestAssured API Connection and validate JSON Response","description":"","id":"cucumber-validation-using-restassured-api;restassured-api-connection-and-validate-json-response","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":1028200,"status":"passed"},"line":25,"name":"I want to connect with RestAssured API","match":{"location":"org.api.stepDefinitions.Steps.IwanttoconnectwithRestAssuredAPI()"},"keyword":"Given "},{"result":{"status":"passed"},"line":26,"name":"Test API Connection","match":{"location":"org.api.stepDefinitions.Steps.TestAPIConnection()"},"keyword":"And "},{"result":{"duration":970000,"status":"passed"},"line":27,"name":"Validate Rest Assured Response","match":{"location":"org.api.stepDefinitions.Steps.ValidateRestAssuredResponse()"},"keyword":"When "},{"result":{"duration":998100,"status":"passed"},"line":28,"name":"Close RestAssured connection","match":{"location":"org.api.stepDefinitions.Steps.CloseRestAssuredconnection()"},"keyword":"And "},{"result":{"status":"passed"},"line":29,"name":"Connect to JSON file","match":{"location":"org.api.stepDefinitions.Steps.ConnecttoJSONfile()"},"keyword":"Then "},{"result":{"status":"passed"},"line":30,"name":"Validate JSON Content","match":{"location":"org.api.stepDefinitions.Steps.ValidaeJSONContent()"},"keyword":"And "}],"tags":[{"name":"@tag"},{"name":"@tag1"}]},{"start_timestamp":"2023-09-26T06:04:47.007Z","line":33,"name":"Create API Request Body & Format JSON content","description":"","id":"cucumber-validation-using-restassured-api;create-api-request-body-&-format-json-content","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":59082300,"status":"passed"},"line":34,"name":"Generate API Request Body","match":{"location":"org.api.stepDefinitions.Steps.GenerateAPIRequestBody()"},"keyword":"Given "},{"result":{"duration":1901100,"status":"passed"},"line":35,"name":"Format API RequestBody JSON","match":{"location":"org.api.stepDefinitions.Steps.Format_APIRequestBody_JSON()"},"keyword":"And "},{"result":{"duration":2141700,"status":"passed"},"line":36,"name":"Write Back formated JSON to specific file","match":{"location":"org.api.stepDefinitions.Steps.Write_Back_formated_JSON_to_specific_file()"},"keyword":"Then "}],"tags":[{"name":"@tag"},{"name":"@tag2"}]}],"name":"Cucumber validation using RestAssured API","description":"  I want to use this template for API Verification","id":"cucumber-validation-using-restassured-api","keyword":"Feature","uri":"file:src/test/resources/Test/APITest.feature","tags":[{"name":"@tag","type":"Tag","location":{"line":19,"column":1}}]},{"line":2,"elements":[{"start_timestamp":"2023-09-26T06:04:47.087Z","line":5,"name":"Verify Settlement Statement Information","description":"","id":"settlement-statement-information;verify-settlement-statement-information","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":18250736300,"status":"passed"},"line":6,"name":"the settlement statement information is provided","match":{"location":"org.api.stepDefinitions.Steps.the_settlement_statement_information_is_provided()"},"keyword":"Given "},{"result":{"duration":1144100,"status":"passed"},"line":7,"name":"then feature file is executed","match":{"location":"org.api.stepDefinitions.Steps.then_feature_file_is_executed()"},"keyword":"When "},{"result":{"duration":849700,"status":"passed"},"line":8,"name":"verify the settlement statement details are correctly recorded","match":{"location":"org.api.stepDefinitions.Steps.verify_the_settlement_statement_details_are_correctly_recorded()"},"keyword":"Then "}],"tags":[{"name":"@tag"},{"name":"@tag1"}]}],"name":"Settlement Statement Information","description":"","id":"settlement-statement-information","keyword":"Feature","uri":"file:src/test/resources/Test/SettelementStatement.feature","tags":[{"name":"@tag","type":"Tag","location":{"line":1,"column":1}}]},{"line":2,"elements":[{"start_timestamp":"2023-09-26T06:05:05.352Z","line":5,"name":"Verify Settlement Statement Information FIPS","description":"","id":"settlement-service-information-fips;verify-settlement-statement-information-fips","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":15255196300,"status":"passed"},"line":6,"name":"the settlement FIPS information is provided","match":{"location":"org.api.stepDefinitions.Steps.the_settlement_FIPS_information_is_provided()"},"keyword":"Given "},{"result":{"duration":994500,"status":"passed"},"line":7,"name":"then FIPS feature file is executed","match":{"location":"org.api.stepDefinitions.Steps.then_FIPS_feature_file_is_executed()"},"keyword":"When "},{"result":{"duration":964200,"status":"passed"},"line":8,"name":"verify the settlement FIPS details are correctly recorded","match":{"location":"org.api.stepDefinitions.Steps.verify_the_settlement_FIPS_details_are_correctly_recorded()"},"keyword":"Then "}],"tags":[{"name":"@tag"},{"name":"@tag1"}]}],"name":"Settlement Service Information FIPS","description":"","id":"settlement-service-information-fips","keyword":"Feature","uri":"file:src/test/resources/Test/SettlementStatementFIPS.feature","tags":[{"name":"@tag","type":"Tag","location":{"line":1,"column":1}}]},{"line":2,"elements":[{"start_timestamp":"2023-09-26T06:05:20.623Z","line":5,"name":"Verify Settlement Create Order information","description":"","id":"settlement-statement-create-order;verify-settlement-create-order-information","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":72768986400,"status":"passed"},"line":6,"name":"the settlement Create Order information is provided","match":{"location":"org.api.stepDefinitions.Steps.the_settlement_Create_Order_information_is_provided()"},"keyword":"Given "},{"result":{"duration":866000,"status":"passed"},"line":7,"name":"then Create Order feature file is executed","match":{"location":"org.api.stepDefinitions.Steps.then_Create_Order_feature_file_is_executed()"},"keyword":"When "},{"result":{"duration":996100,"status":"passed"},"line":8,"name":"verify the settlement Create Order details are correctly recorded","match":{"location":"org.api.stepDefinitions.Steps.verify_the_settlement_Create_Order_details_are_correctly_recorded()"},"keyword":"Then "}],"tags":[{"name":"@tag"},{"name":"@tag1"}]}],"name":"Settlement Statement Create Order","description":"","id":"settlement-statement-create-order","keyword":"Feature","uri":"file:src/test/resources/Test/SettlementStatementOrder.feature","tags":[{"name":"@tag","type":"Tag","location":{"line":1,"column":1}}]},{"line":2,"elements":[{"start_timestamp":"2023-09-26T06:06:33.410Z","line":5,"name":"RestAssured API Token generation","description":"","id":"generate-autherization-token;restassured-api-token-generation","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":15848137100,"status":"passed"},"line":6,"name":"I want to provide login credentials for token generation API","match":{"location":"org.api.stepDefinitions.Steps.I_want_to_provide_login_credentials_for_token_generation_API()"},"keyword":"Given "},{"result":{"duration":780000,"status":"passed"},"line":7,"name":"verify the token in responce","match":{"location":"org.api.stepDefinitions.Steps.verify_the_token_in_responce()"},"keyword":"And "}],"tags":[{"name":"@tag"},{"name":"@tag1"}]}],"name":"Generate Autherization Token","description":"","id":"generate-autherization-token","keyword":"Feature","uri":"file:src/test/resources/Test/Token.feature","tags":[{"name":"@tag","type":"Tag","location":{"line":1,"column":1}}]}]
+=======
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-25T06:28:25.820Z",
+        "line": 6,
+        "name": "Validate the GTX API Responses",
+        "description": "",
+        "id": "gtx-api;validate-the-gtx-api-responses",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NumberFormatException: empty String\r\n\tat java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)\r\n\tat java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)\r\n\tat java.base/java.lang.Double.parseDouble(Double.java:543)\r\n\tat stepdefinition.APIFunction.GTXAPI(APIFunction.java:522)\r\n\tat stepdefinition.Steps.post_the_gtx_api_request(Steps.java:306)\r\n\tat ✽.POST the GTXApi request(file:///C:/Users/Sunil.SKumbar/Cucumberwithapi/src/test/resources/GTX/GTXApi.feature:7)\r\n",
+              "duration": 1365722857900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "POST the GTXApi request",
+            "match": {
+              "location": "stepdefinition.Steps.post_the_gtx_api_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Response retrieved from the server",
+            "match": {
+              "location": "stepdefinition.Steps.response_retrieved_from_the_server()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Validate the Response is sucessful",
+            "match": {
+              "location": "stepdefinition.Steps.validate_the_response_is_sucessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "GTX API",
+    "description": "",
+    "id": "gtx-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/GTX/GTXApi.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
+>>>>>>> Stashed changes
